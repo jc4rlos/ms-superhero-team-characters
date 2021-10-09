@@ -1,0 +1,21 @@
+
+server:
+  port: 9092
+
+spring:
+  webflux:
+    base-path: /superhero-team-characters/api
+  application:
+    name: superhero-team-characters-v1
+  data:
+    mongodb:
+      database: admin
+      username: admin
+      password: password
+      host: localhost
+      port: 27017
+
+
+
+
+
