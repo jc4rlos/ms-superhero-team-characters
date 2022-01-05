@@ -1,0 +1,19 @@
+
+server:
+  port: 9092
+
+spring:
+  application:
+    name: superhero-team-characters
+  data:
+    mongodb:
+      database: admin
+      username: admin
+      password: password
+      host: localhost
+      port: 27017
+
+
+
+
+
