@@ -2,6 +2,7 @@ package com.superhero.team.characters.model.dto;
 
 import com.superhero.team.characters.model.entity.Appearance;
 import com.superhero.team.characters.model.entity.Biography;
+import com.superhero.team.characters.model.entity.Image;
 import com.superhero.team.characters.model.entity.PowerStats;
 import com.superhero.team.characters.model.entity.Work;
 
@@ -26,7 +27,7 @@ public class CharacterDto {
   private Long teamId;
   private Integer superheroId;
   private String name;
-  private String image;
+  private Image image;
   private PowerStats powerStats;
   private Biography biography;
   private Appearance appearance;

@@ -3,10 +3,8 @@ server:
   port: 9092
 
 spring:
-  webflux:
-    base-path: /superhero-team-characters/api
   application:
-    name: superhero-team-characters-v1
+    name: superhero-team-characters
   data:
     mongodb:
       database: admin

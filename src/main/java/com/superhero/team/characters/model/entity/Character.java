@@ -1,6 +1,7 @@
 package com.superhero.team.characters.model.entity;
 
 import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
@@ -16,6 +17,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 @Document(collection = "characters")
 @NoArgsConstructor
 @AllArgsConstructor
+@Builder
 public class Character {
 
   @Id
@@ -23,7 +25,7 @@ public class Character {
   private Long teamId;
   private Integer superheroId;
   private String name;
-  private String image;
+  private Image image;
   private PowerStats powerStats;
   private Biography biography;
   private Appearance appearance;
